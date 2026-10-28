@@ -1,16 +1,123 @@
-# React + Vite
+# 🐦 Flappy Bird Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fun, interactive Flappy Bird game built using React and Vite. Navigate the bird through randomly generated pipes, beat your high score, and enjoy animated clouds and sound effects!
 
-Currently, two official plugins are available:
+## 🎮 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🚀 **[Play Flappy Bird Online](https://react-game-chi-five.vercel.app/)**
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🐤 Bird movement with gravity-based physics
+- ⬆️ Jump controls using keyboard, mouse, or touch
+- 🚧 Pipes with randomly generated gaps
+- 💥 Collision detection for pipes, ceiling, and ground
+- 🏆 Real-time score tracking
+- 🔄 Game Over screen with restart functionality
+- ☁️ Animated clouds and a sky-themed background
+- 🔊 Sound effects for jumping, scoring, and collisions
+- 📱 Pointer and touch interaction support
+- 🚀 Deployed to Vercel
 
-## Expanding the ESLint configuration
+## 🕹️ How to Play
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Press **Space** or **Arrow Up** to make the bird jump.
+2. Alternatively, click or tap the game area.
+3. Navigate through the gaps between the pipes.
+4. Avoid hitting the pipes, ceiling, or ground.
+5. After Game Over, press Space or click/tap to restart, or select **Play Again**.
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|---|---|
+| React | UI and component-based development |
+| Vite | Development server and production build |
+| JavaScript | Game logic, physics, collision detection, and scoring |
+| CSS | Styling, layout, and animations |
+| HTML5 Audio | Sound effects |
+| Git & GitHub | Version control and source code hosting |
+| Vercel | Deployment and hosting |
+
+## 💻 Run Locally
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/)
+- npm
+
+### Installation
+
+**1. Clone the repository**
+
+```bash
+git clone https://github.com/imadi19/React-Game.git
+```
+
+**2. Navigate to the game directory**
+
+```bash
+cd React-Game/Flappy-Bird-Game
+```
+
+**3. Install dependencies**
+
+```bash
+npm install
+```
+
+**4. Start the development server**
+
+```bash
+npm run dev
+```
+
+Open the local URL shown in your terminal.
+
+### Production Build
+
+To generate a production build:
+
+```bash
+npm run build
+```
+
+To preview the production build locally:
+
+```bash
+npm run preview
+```
+
+## 📂 Project Structure
+
+```text
+Flappy-Bird-Game/
+├── src/
+│   ├── assets/
+│   │   └── sounds/
+│   │       ├── flap.mp3
+│   │       ├── score.mp3
+│   │       └── hit.mp3
+│   ├── Components/
+│   │   ├── Bird.jsx
+│   │   ├── Clouds.jsx
+│   │   └── Pipe.jsx
+│   ├── App.jsx
+│   ├── App.css
+│   └── index.css
+├── index.html
+├── package.json
+└── vite.config.js
+```
+
+## 👨‍💻 Author
+
+**Aditya Raj**
+
+- GitHub: [@imadi19](https://github.com/imadi19)
+- Repository: [React-Game](https://github.com/imadi19/React-Game)
+- Live Demo: [Flappy Bird Game](https://react-game-chi-five.vercel.app/)
+
+---
+
+⭐ If you enjoy the game, try the live demo and explore the source code!
